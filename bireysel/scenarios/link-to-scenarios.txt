@@ -1,2 +1,6 @@
 https://docs.google.com/spreadsheets/d/1r_4GUf6Hh32pOTiaalgUe12CMaDgHZdfLqXp_NJH-SQ/edit?usp=sharing
 
+Otomasyon kodlarındaki future dosyalarında:
+
+- 22 adet UI eksenli senaryo
+- 12 adet veritabanı -unique değer, not null değer, validation işlemleri, ilişkiler- eksenli senaryo
