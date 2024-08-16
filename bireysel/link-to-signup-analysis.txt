@@ -1,0 +1,6 @@
+Bağlantıdaki grup excel proje dökümanının,
+
+- "system diagrams" sekmesindeki signup&login API diyagramları
+- "signup analysis" sekmesindeki içerikler
+
+https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing
