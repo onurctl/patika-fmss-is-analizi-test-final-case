@@ -2,7 +2,7 @@
 Proje, global çapta kullanımı planlanan bir rent a car projesinin grup olarak yapılan İş Analizi bölümü ve bireysel olarak yapılan QA-Test bölümünden oluşmaktadır. Tasarlanan uygulama RENTfly ismine sahiptir.
 
 # İş Analizi - Grup Projesi
-Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. İçeriği, final case isterlerine uyumlu olan ve proje dosyalarında da paylaşılmış olan ["RENTfly - İş Analizi Grup Çalışmaları"](https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing) dokümanındaki sıralaması ile şu şekilde özetlenebilir: 
+Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. Gerekli dokümanları repo içindeki "grup" klasörü altındadır. Ayrıca tüm içeriği, final case isterlerine uyumlu olan ve proje dosyalarında da paylaşılmış olan ["RENTfly - İş Analizi Grup Çalışmaları"](https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing) dokümanındaki sıralaması ile şu şekilde özetlenebilir: 
 
 # 1. Ekip Bilgisi / Takım 3
 - Ali ÖZKAN
@@ -75,7 +75,7 @@ Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde 
 - İlki; bilhassa projenin başlangıcında ancak genel olarak tüm süreç boyunca da kullanılan tasarım araçları, ikincisi projenin dokümantasyon, veritabanı tasarımları, sistem analizleri gibi detayları içeren aşamalarında kullanılan araçlar, üçüncüsü ise test adımında kullanılan araçlardır.
 
 # Test Projesi - Bireysel
-Bireysel dosyasının içinde detayları yer alıyor. 4 başlıktan oluşmaktadır:
+Repo içinde "bireysel" dosyasının altında tüm dokümanları yer alıyor. 4 başlıktan oluşmaktadır:
 
 # 1. UML Diyagramı Ekseninde Test Senaryoları
 - Projenin kapsamlı UML diyagramı temel alınarak, tüm signup & login süreçleri olabildiğince detaylandırılmaya çalışılarak 21 adet senaryo hazırlanmıştır.
