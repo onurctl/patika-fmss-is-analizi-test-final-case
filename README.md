@@ -49,11 +49,22 @@ Projede belirlenen temel Agile yönetim süreci olan Scrum metodolojisine uygun 
 Projenin benchmarking aşamasında genel olarak hazırlanan timeline grafiğini daha detaylı bir biçimde içerir. Süreçler, ikişer haftalık sprint üzerinden değerlendirilmiştir. 
 
 # 14. Sign Up Backend Analizi & Veri Güncelleme Stratejileri
+Backend dokümantasyonunun bir parçası olarak hazırlanan ve sign up işlemi için gerekli tablo elemanları, veri tipleri, örnek sorgular ve veri güncellenme stratejilerine dair bilgiler içeren analizden oluşur.
+
 # 15. Sign Up Tablosu - SQL Query
+Kayıtlı müşteri veri tabanında yer alan 250 kişilik bireysel kullanıcı arasından, 20-22 yaş arasında olup Haziran ayında sisteme kayıt olmuş müşterilerin sayısını belirleyen sorguyu içerir.
+
 # 16. API Dokümantasyon & Manuel Sorgu İşlemleri
+Swagger üzerinden, projenin taslak API endpoint bağlantıları kullanılarak oluşturulan örnek request işlemlerini gösteren ve backend dokümantasyonuna katkıda bulunması amacıyla hazırlanmış bir içeriğe sahiptir. Temel API kavramlarına dair -request, response, json body, status code- bilgiler içerir.
+
 # 17. Migration Analizi - Validation Stratejileri
+Talep olarak başka bir uygulamadan 50 bin kişinin aktarılması sürecinde izlenecek aşamaların analizini, bu süreçte kullanıcıların validate edilmesi gereken -ör: ehliyet bilgisi- verilerini doğrulamak için kullanılabilecek dış kaynak servisler ve kullanım stratejilerini içeren bir analizden oluşmaktadır.
+
 # 18. KVKK Kapsamında Geliştirme Ortamında ve Canlıda Veri Güvenliği
+Gerek geliştirme ortamında gerekse uygulama canlıya alındığında, kullanıcıların kişisel/hassas verilerini korumaya yönelik yetkilendirme ve şifreleme detaylarına dair güvenlik analizlerini içerir.  
+
 # 19. Kullanılan Araçlar
+Genel olarak üç gruba ayrıldı. İlki; bilhassa projenin başlangıcında ancak genel olarak tüm süreç boyunca da kullanılan tasarım araçları, ikincisi projenin dokümantasyon, veritabanı tasarımları, sistem analizleri gibi detayları içeren aşamalarında kullanılan araçlar, üçüncüsü ise test adımında kullanılan araçlardır.
 
 # Test Projesi - Bireysel
 Bireysel dosyasının içinde detayları yer alıyor. 4 başlıktan oluşmaktadır.
