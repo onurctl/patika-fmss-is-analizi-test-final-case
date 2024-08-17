@@ -28,7 +28,7 @@ Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde 
 # 6. Wireframes, Mockups, DEMO & UI/UX Prensipleri
 - Uygulamanın, başlangıçta hem web hem mobil sürümlerine dair mockup aşamaları oluşturulmuştur.
 - Final case isterleri ile birlikte bu kapsam genişletilmiş ve wirefreame çizimleri, sayfalar arası geçişleri içeren hareketli bir demo, renk paleti ve tasarım sürecinde takip edilen UI/UX prensiplerine dair bilgiler eklenmiştir.
-- Demo video için Youtube bağlantısı sayfanın en alt bölümünde yer almaktadır.
+- Demo video için Youtube bağlantısı sayfanın en alt bölümünde yer almaktadır, aynı zamanda "bireysel" klasörü altındaki test projesi içine de video eklenmiştir.
 
 # 7. Use Case Diyagramı
 - Bireysel kullanıcının, uygulamanın başlangıçtan itibaren uygulayabileceği tüm işlemlere dair bilgi veren use case diyagramını içerir.
