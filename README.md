@@ -1,2 +1,17 @@
-# patika-fmss-is-analizi-test-final-case
-Patika.dev &amp; FMSS - İş Analizi &amp; Test Bootcamp Final Case
+# Patika.dev & FMSS - İş Analizi ve Test Bootcamp Final Case
+Proje, global çapta kullanımı planlanan bir rent a car projesinin grup olarak yapılan İş Analizi bölümü ve bireysel olarak yapılan QA-Test bölümünden oluşmaktadır. Tasarlanan uygulama RENTfly ismine sahiptir.
+
+# 1. İş Analizi - Grup Projesi
+Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. 
+İçeriği şu şekilde özetlenebilir: 
+
+# 1. Ekip Bilgisi / Takım 3
+- Ali ÖZKAN
+- Canberk AYKANAT
+- Elifnur CANSIZ
+- Onur ÇATAL
+- Selim DOĞAN
+
+
+
+
