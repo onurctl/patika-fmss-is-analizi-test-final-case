@@ -67,4 +67,13 @@ Gerek geliştirme ortamında gerekse uygulama canlıya alındığında, kullanı
 Genel olarak üç gruba ayrıldı. İlki; bilhassa projenin başlangıcında ancak genel olarak tüm süreç boyunca da kullanılan tasarım araçları, ikincisi projenin dokümantasyon, veritabanı tasarımları, sistem analizleri gibi detayları içeren aşamalarında kullanılan araçlar, üçüncüsü ise test adımında kullanılan araçlardır.
 
 # Test Projesi - Bireysel
-Bireysel dosyasının içinde detayları yer alıyor. 4 başlıktan oluşmaktadır.
+Bireysel dosyasının içinde detayları yer alıyor. 4 başlıktan oluşmaktadır:
+
+# 1. UML Diyagramı Ekseninde Test Senaryoları
+- Projenin kapsamlı UML diyagramı temel alınarak, tüm signup & login süreçleri olabildiğince detaylandırılmaya çalışılarak 21 adet senaryo hazırlanmıştır.
+- Bunlar, otomasyon projesindeki feature dosyaları içine ilk yazılan senaryolardır ve o feature içinde kaç adet oldukları feature dosyasının üst kısmındaki yorum satırında belirtilmiştir.
+- Genellikle bir veri girişi içermeyen; smoke test eksenindeki sayfa, metin, geçiş gibi temel UI kontrollerine dayanmaktadır. Ayrıca eklenen PDF dosyasında da düzgün bir taslak içinde dokümante edilmişlerdir. 
+
+# 2. Kullanılan Araçlar
+# 3. Kullanılan Araçlar
+# 4. Kullanılan Araçlar
