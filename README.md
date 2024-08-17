@@ -93,6 +93,6 @@ Bireysel dosyasının içinde detayları yer alıyor. 4 başlıktan oluşmaktad�
 - Bu senaryolar toplam 12 adettir ancak birçok alt case ile veri girişindeki olasılıklar çeşitlendirilmiştir.
 - NOT NULL veri alanları, veri tipleri, UNIQUE veri tipleri, kullanıcı bilgilerinin ilişkileri -şifre/mail eşleşmesi- gibi birçok senaryoyu içermektedir.
 - Bahsi geçen sign up analizine dair bağlantı hem grup proje dokümanında hem de bireysel klasörü altındaki dosyalarda bulunmaktadır.
-- 
+  
 # 4. Testlerin Demo Ekranda Koşumu
 - Bu aşama için, tasarım tarafında demo oluşturulması ve bu eksende düzgün bir mobil test otomasyon tasarımı oluşturulmasının yeterli görüldüğü belirtildiğinden ekstra bir çalışma yapılmamıştır.
