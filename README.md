@@ -3,7 +3,7 @@ Proje, global çapta kullanımı planlanan bir rent a car projesinin grup olarak
 
 # 1. İş Analizi - Grup Projesi
 Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. 
-İçeriği şu şekilde özetlenebilir: 
+İçeriği, final case isterlerine uyumlu olan ve proje dosyalarında da paylaşılmış olan [Başlık]([https://www.google.com](https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing) "RENTfly - İş Analizi Grup Çalışmaları") dokümandaki sıralaması ile şu şekilde özetlenebilir: 
 
 # 1. Ekip Bilgisi / Takım 3
 - Ali ÖZKAN
@@ -11,6 +11,9 @@ Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde 
 - Elifnur CANSIZ
 - Onur ÇATAL
 - Selim DOĞAN
+
+# 2. Benchmark
+# 3. User Stories
 
 
 
