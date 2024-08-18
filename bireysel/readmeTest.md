@@ -8,7 +8,7 @@
 - Tutorial devamındaki ikinci sayfaya geçiş ve title ile doğrulaması
 - Tutorial skip sonrası Main Page'e geçiş ve doğrulaması
 - Tutorial içinden Main Page'e geçiş ve doğrulaması
-
+#
 - Main page slogan metni kontrolü
 - Main page'den "Privacy Policy" sayfasına geçiş ve title doğrulaması
 - Main page'den "Terms of Services" sayfasına geçiş ve title doğrulaması
