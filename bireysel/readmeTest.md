@@ -1,4 +1,12 @@
 # Test Projesi - Bireysel
+Ön koşullar:
+
+- JDK (21.0.2)
+- Maven
+- Appium Java Client (7.6.0)
+- Cucumber Junit (7.16.1)
+- Cucumber Java (7.18.0)
+
 Senaryoların detayları ve final case isterlerindeki 4 başlığa dair açıklamalar aşağıdaki gibidir:
 
 # Senaryo Detayları
