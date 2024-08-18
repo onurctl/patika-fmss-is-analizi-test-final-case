@@ -76,7 +76,7 @@ Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde 
 - İlki; bilhassa projenin başlangıcında ancak genel olarak tüm süreç boyunca da kullanılan tasarım araçları, ikincisi projenin dokümantasyon, veritabanı tasarımları, sistem analizleri gibi detayları içeren aşamalarında kullanılan araçlar, üçüncüsü ise test adımında kullanılan araçlardır.
 
 # Test Projesi - Bireysel
-Repo içinde "bireysel" dosyasının altında tüm dokümanları yer alıyor. 4 başlıktan oluşmaktadır:
+Repo içinde "bireysel" dosyasının altında tüm dokümanları yer alıyor. Ayrıca "readmeTest" dosyası içinde senaryolara dair tüm detaylar bulunmaktadır. Test projesi 4 başlıktan oluşmaktadır:
 
 # 1. UML Diyagramı Ekseninde Test Senaryoları
 - Projenin kapsamlı UML diyagramı temel alınarak, tüm signup & login süreçleri olabildiğince detaylandırılmaya çalışılarak 21 adet senaryo hazırlanmıştır.
