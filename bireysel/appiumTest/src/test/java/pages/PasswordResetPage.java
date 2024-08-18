@@ -5,6 +5,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+
 public class PasswordResetPage {
 
     private AppiumDriver<MobileElement> driver;
@@ -13,6 +14,8 @@ public class PasswordResetPage {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    // locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/resetPasswordTitleText")
     @iOSXCUITFindBy(accessibility = "reset_password_title_text")
@@ -30,7 +33,7 @@ public class PasswordResetPage {
     @iOSXCUITFindBy(accessibility = "reset_password_message")
     private MobileElement resetPasswordMessage;
 
-    // Methods
+    // functions:
 
     public void enterEmail(String email) {
         emailInput.sendKeys(email);
