@@ -15,6 +15,8 @@ public class PrivacyPolicyPage {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
+    // locators:
+
     @AndroidFindBy(id = "com.rentfly.app:id/privacyPolicyText")
     @iOSXCUITFindBy(accessibility = "privacy_policy_text")
     private MobileElement privacyPolicyText;
@@ -23,7 +25,7 @@ public class PrivacyPolicyPage {
     @iOSXCUITFindBy(accessibility = "accept_button")
     private MobileElement acceptButton;
 
-    // Methods
+    // functions:
 
     public String getPrivacyPolicyText() {
         return privacyPolicyText.getText();
