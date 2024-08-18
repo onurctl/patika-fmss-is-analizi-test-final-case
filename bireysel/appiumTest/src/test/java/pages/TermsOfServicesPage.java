@@ -15,6 +15,8 @@ public class TermsOfServicesPage {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
+    // locators:
+    
     @AndroidFindBy(id = "com.rentfly.app:id/termsOfServicesText")
     @iOSXCUITFindBy(accessibility = "terms_of_services_text")
     private MobileElement termsOfServicesText;
@@ -23,7 +25,7 @@ public class TermsOfServicesPage {
     @iOSXCUITFindBy(accessibility = "accept_button")
     private MobileElement acceptButton;
 
-    // Methods
+    // functions:
 
     public String getTermsOfServicesText() {
         return termsOfServicesText.getText();
