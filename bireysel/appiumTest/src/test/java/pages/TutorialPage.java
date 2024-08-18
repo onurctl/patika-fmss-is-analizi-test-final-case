@@ -16,7 +16,7 @@ public class TutorialPage {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    // First tutorial page locators
+    // first tutorial page locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/tutorialTitle")
     @iOSXCUITFindBy(accessibility = "tutorial_title")
@@ -30,7 +30,7 @@ public class TutorialPage {
     @iOSXCUITFindBy(accessibility = "start_button")
     private MobileElement startButton;
 
-    // Methods
+    // functions:
 
     public void clickSkipButton() {
         skipButton.click();
@@ -44,8 +44,5 @@ public class TutorialPage {
         return titleText.getText();
     }
 
-
-
 }
-
 
