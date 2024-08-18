@@ -1,0 +1,218 @@
+MoSCoW Yöntemi
+
+MoSCoW yöntemi, özellikleri dört gruba ayıran bir önceliklendirme tekniğidir.
+
+- Olmazsa Olmaz (Must Have): Bunlar, ürünün başarılı bir şekilde dağıtılması için kritik olan temel özelliklerdir. Bu özellikler olmadan sistem işlevsel olarak kabul edilmez.
+
+- Olmalı (Should Have): Bu özellikler önemli ama hayati değildir. Zaman kısıtlamaları varsa geçici olarak çıkarılabilirler, ancak gelecekteki iterasyonlarda dahil edilmelidirler.
+
+- Olabilir (Could Have): Bu özellikler arzu edilen ancak ilk lansman için gerekli olmayan özelliklerdir. Zaman ve kaynaklar elverirse dahil edilebilirler.
+
+- Olmayacak (Won't Have): Bu özelliklerin mevcut kapsamda dahil edilmeyeceği kabul edilir. Daha sonraki bir aşamaya ertelenebilir veya tamamen çıkarılabilirler.
+
+. . .
+
+Story Points ve Planning Poker
+
+Story point'leri verirken genel olarak görevin karmaşıklığı, görevin tamamlanması için gereken çaba, belirsizlik seviyesi ve riski gibi faktörleri göz önünde bulundurduk. Bu değerlendirmeyi yaparken Planning Poker tekniğine dayalı bir yaklaşım kullandık. 
+
+Planning Poker, ekip üyelerinin story point'leri hakkında fikir birliğine varmasını sağlamaktadır ve genellikle bireylerin subjektif değerlendirmelerini dengelemeye yardımcı olur. Bu tekniği kullanırken, Fibonacci dizisinden (1, 2, 3, 5, 8, 13, vb.) yararlandık. 
+
+1. Görevin Karmaşıklığı
+
+Görev teknik açıdan ne kadar karmaşıksa, story point değeri o kadar yüksek olur. Örneğin, API entegrasyonu gibi teknik işler daha yüksek story point alırken, UI tasarımı gibi daha basit işler genellikle daha düşük point'lerle değerlendirilir.
+
+2. Çaba ve Efor
+
+Görevin tamamlanması için ekibin harcaması gereken toplam zaman ve çaba dikkate alındı. Uzun sürecek ve daha fazla iş gücü gerektirecek görevler için daha yüksek story point verdim. Örneğin, Ödeme Entegrasyonu gibi çaba gerektiren görevler daha yüksek point aldı.
+
+3. Belirsizlik ve Bilinmezlikler
+
+Görevle ilgili ne kadar belirsizlik varsa, o görevin story point değeri o kadar yüksek olmalı. Örneğin, AI tabanlı sohbet desteği gibi daha yenilikçi ve bilinmezlik içeren görevler daha yüksek point aldı.
+
+4. Risk ve Olası Engeller
+
+Görev sırasında karşılaşılabilecek riskler veya olası engeller varsa, bu da story point'leri etkiler. Dijital imza entegrasyonu gibi yasal veya güvenlik riski taşıyan görevler bu nedenle daha yüksek point ile değerlendirildi.
+
+5. MVP'nin Önceliği
+
+Görevlerin hangi MVP’ye ait olduğu da story point'leri etkileyebilir. Örneğin, MVP 1'deki görevler daha kritik olduğu için bu görevler için verilen story point'ler daha yüksek olabilir.
+
+. . .
+
+MVP'lere Uygulama:
+
+- MVP 1 (Kullanıcı Kimlik Doğrulama & Profil Yönetimi): Uygulamanın temel işlevselliği için gerekli olduğu için "Olmazsa Olmaz" olarak sınıflandırılmıştır. Kullanıcı kimlik doğrulaması olmadan, diğer özelliklere güvenli bir şekilde erişilemez.
+
+- MVP 2 (Araç Arama, Filtreleme ve Rezervasyon): Uygulamanın ana işlevselliğini temsil ettiği için "Olmalı" olarak kabul edilmiştir, ancak kullanıcı yönetimi kurulduktan sonra aşamalı olarak geliştirilebilir.
+
+- MVP 3 (Kullanıcı Deneyimi & Destek): Kullanıcı deneyimini iyileştiren ve destek sağlayan "Olabilir" özellikler olarak sınıflandırılmıştır. Bu özellikler, temel özellikler uygulandıktan sonra eklenebilir.
+
+. . . 
+
+MVP 1: Kullanıcı Kimlik Doğrulama & Profil Yönetimi
+
+Backlog Maddeleri:
+
+Kullanıcı Kaydı (E-posta ile)
+
+Görev 1: E-posta doğrulama ve kayıt sürecini uygula. (Story Point: 5)
+Görev 2: Kullanıcı kimlik bilgilerini güvenli bir şekilde veritabanında sakla. (Story Point: 3)
+
+Kullanıcı Girişi (E-posta ile)
+
+Görev 1: E-posta doğrulaması için giriş API'sini uygula. (Story Point: 5)
+Görev 2: Kullanıcı giriş durumunu korumak için oturum yönetimini kur. (Story Point: 3)
+
+2-Faktörlü Kimlik Doğrulama (2FA)
+
+Görev 1: SMS/e-posta ile 2FA entegrasyonunu gerçekleştir. (Story Point: 8)
+Görev 2: 2FA kod girişi için UI/UX oluştur. (Story Point: 5)
+
+Şifre Sıfırlama ve Yeniden Oluşturma
+
+Görev 1: E-posta yoluyla şifre sıfırlama işlemini uygula. (Story Point: 5)
+Görev 2: Şifreyi güvenli bir şekilde veritabanında güncelle. (Story Point: 3)
+
+Profil Bilgileri Yönetimi
+
+Görev 1: Kişisel bilgilerin güncellenmesi için UI oluştur. (Story Point: 5)
+Görev 2: Kullanıcı bilgilerini veritabanında güncellemek için API uygula. (Story Point: 5)
+
+Ödeme Yöntemi Yönetimi
+
+Görev 1: Ödeme yöntemlerini ekleme/güncelleme için UI oluştur. (Story Point: 5)
+Görev 2: Ödeme bilgilerini güvenli bir şekilde sakla. (Story Point: 8)
+
+Gizlilik & Bildirim Ayarları
+
+Görev 1: Gizlilik ve bildirim ayarları için UI oluştur. (Story Point: 3)
+Görev 2: Ayarları güncellemek için API uygula. (Story Point: 5)
+
+Hesap Çıkışı
+
+Görev 1: Çıkış işlevini uygula. (Story Point: 3)
+Görev 2: Çıkışta oturum ve kullanıcı verilerini temizle. (Story Point: 3)
+
+Profil Resmi Yükleme
+
+Görev 1: Profil resmi yüklemek için UI oluştur. (Story Point: 5)
+Görev 2: Resim depolama ve geri çağırmayı uygula. (Story Point: 8)
+
+Sosyal Medya Giriş Entegrasyonu
+
+Görev 1: Sosyal medya giriş entegrasyonu (Google, Facebook vb.) yap. (Story Point: 8)
+Görev 2: Sosyal medya token değişimini güvenli bir şekilde işle. (Story Point: 5)
+
+. . .
+
+MVP 2: Araç Arama, Filtreleme ve Rezervasyon
+
+Backlog Maddeleri:
+
+Araç Arama Fonksiyonu
+
+Görev 1: Araçlar için temel arama API'sini uygula. (Story Point: 5)
+Görev 2: Arama girişi ve sonuçları için UI oluştur. (Story Point: 5)
+
+Araçları Filtreleme
+
+Görev 1: Araç araması için filtre seçeneklerini uygula. (Story Point: 8)
+Görev 2: Performans için filtrelemeyi optimize et. (Story Point: 5)
+
+Araç Detay Sayfası
+
+Görev 1: Araç detay sayfasını tasarla ve uygula. (Story Point: 8)
+Görev 2: Araç detaylarını almak için API'yi entegre et. (Story Point: 5)
+
+Şirket/Bayi Bilgileri
+
+Görev 1: Araç sayfasında ilgili şirket bilgilerini göster. (Story Point: 5)
+Görev 2: Şirket verilerini almak için API'yi uygula. (Story Point: 5)
+
+Kullanıcı Yorumları & Puanlamaları
+
+Görev 1: Yorum ve puanlama gönderimini uygula. (Story Point: 5)
+Görev 2: Araç sayfasında kullanıcı yorumlarını ve puanlarını göster. (Story Point: 5)
+
+Rezervasyon Süreci
+
+Görev 1: Rezervasyon formu için UI oluştur. (Story Point: 8)
+Görev 2: Rezervasyon taleplerini işlemek için API'yi uygula. (Story Point: 5)
+
+Sözleşme & Anlaşma
+
+Görev 1: Kiralama sözleşmelerinin dijital imzasını entegre et. (Story Point: 8)
+Görev 2: İmzalı sözleşmeleri güvenli bir şekilde sakla. (Story Point: 8)
+
+Ödeme Entegrasyonu
+
+Görev 1: Ödeme gateway entegrasyonunu uygula. (Story Point: 8)
+Görev 2: Ödemeleri güvenli bir şekilde işle ve yönet. (Story Point: 8)
+
+Rezervasyon Onayı
+
+Görev 1: Rezervasyon onay ekranını uygula. (Story Point: 5)
+Görev 2: Kullanıcılara onay e-postaları gönder. (Story Point: 3)
+
+Hesap Değiştirme Özelliği
+
+Görev 1: Hesap değiştirme için backend yapısını etkinleştir. (Story Point: 5)
+Görev 2: Hesap değiştirme işlemi için kolay UI oluştur. (Story Point: 5)
+
+. . . 
+
+MVP 3: Kullanıcı Deneyimi & Destek
+
+Backlog Maddeleri:
+
+Kalıcı Oturum (Oturumda Kal)
+
+Görev 1: Token tabanlı oturum kalıcılığını uygula. (Story Point: 5)
+Görev 2: Oturum zaman aşımını ve yenilemeyi güvenli bir şekilde işle. (Story Point: 5)
+
+Çıkış İşlevi
+
+Görev 1: Tüm cihazlardan çıkış yapma işlevini uygula. (Story Point: 5)
+Görev 2: Kullanıcı için oturum genel görünümünü sağla. (Story Point: 3)
+
+Uygulama İçi Bildirimler
+
+Görev 1: Push bildirim servisini entegre et. (Story Point: 8)
+Görev 2: Bildirimleri göstermek için UI tasarla. (Story Point: 5)
+
+Teknik Destek Özellikleri
+
+Görev 1: Harita ve konum servislerini entegre et. (Story Point: 5)
+Görev 2: Yol yardımı özelliklerini uygula (örn. destek ile iletişim kurma). (Story Point: 8)
+
+Yasal Destek Özellikleri
+
+Görev 1: Sigorta bilgilerine erişim sağla. (Story Point: 3)
+Görev 2: Acil durum iletişim özelliğini uygula. (Story Point: 5)
+
+AI Sohbet ve Yardım Menüsü
+
+Görev 1: AI tabanlı sohbet desteğini uygula. (Story Point: 8)
+Görev 2: SSS içeren bir yardım menüsü oluştur. (Story Point: 5)
+
+Kiralama Deneyimi Geri Bildirimi
+
+Görev 1: Kiralama sonrası geri bildirim formunu uygula. (Story Point: 5)
+Görev 2: İyileştirmeler için geri bildirimleri analiz et. (Story Point: 5)
+
+En Yakın İade Noktası
+
+Görev 1: En yakın iade noktasını bulma özelliğini uygula. (Story Point: 5)
+Görev 2: İade noktasına navigasyon sağla. (Story Point: 5)
+
+Hesap Silme
+
+Görev 1: Hesap silme ve veri kaldırma işlemini uygula. (Story Point: 5)
+Görev 2: Silmeden önce onay ve yedekleme seçenekleri sun. (Story Point: 3)
+
+Birden Fazla Ödeme Yöntemi
+
+Görev 1: Kullanıcıların birden fazla ödeme yöntemi eklemesine izin ver. (Story Point: 5)
+Görev 2: Ödeme sırasında ödeme yöntemleri arasında geçiş yapma olanağı sağla. (Story Point: 5)
+

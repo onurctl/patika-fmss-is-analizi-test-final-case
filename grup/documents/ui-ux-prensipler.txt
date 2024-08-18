@@ -1,0 +1,33 @@
+UI/UX prensipleri şunlardır:
+
+1. Wireframe, Mockup ve Demo Gelişimi
+
+Wireframe: Çizgisel, görsel ve renk içermeyen tasarım anlayışı, kullanıcı arayüzünün temel yapısını ve işlevselliğini belirlemek için idealdir. Renk ve görsel öğelerden uzak durarak, bu aşamada yapısal düzenlemelere odaklanmak tercih edildi.
+
+Mockup: Renklerin ve görsellerin eklenmesi, uygulamanın nihai görsel tasarımına yaklaşılmasını sağladı. Bu aşama görsel hiyerarşiyi, renk uyumunu ve genel estetiği test etmek için iyi bir imkan sundu.
+
+Demo: Sayfa geçişlerini içeren video kaydı alınmış bir demo, kullanıcı akışını ve etkileşimlerini görselleştirmeye olanak tanıdı. Bu, kullanıcı deneyimini daha iyi anlamak ve test etmek (bilhassa kullanıcı tarafından) için önemliydi.
+
+2. Renk Paleti ve Tutarlılık:
+
+Uygulamanın genelinde kullanılan bordo, mavi, gri ve beyaz tonlar, tutarlı bir renk paleti oluşturarak görsel uyum sağlamıştır. Farklı sayfalarda benzer renk tonları kullanarak görsel tutarlılığı korumak, kullanıcıların uygulamayı daha rahat anlamasına yardımcı olacaktır.
+
+Tutorial sayfasında kullanılan yeşil ve mavi renkler, kullanıcıya sıcak ve davetkar bir giriş sunar. Bu sayfanın skip edilebilir olması, kullanıcıların ihtiyaçlarına göre seçim yapmalarına olanak tanır, bu da kullanıcı deneyimini olumlu yönde etkiler. Aynı zamanda farklı uygulama kullanım deneyimine sahip kullanıcılar için, onlara uygun bir opsiyon sunmuş olur. 
+
+3. Navigasyon ve Erişilebilirlik:
+
+Signup ve login sayfalarında farklı sayfalara geçiş imkanı sunulması (login olma, şifre unutma, Google ile giriş yapma gibi) kullanıcıların istedikleri işlemi kolayca gerçekleştirmelerini sağlar. Bu, kullanıcıya seçenek sunarak esnek bir deneyim sağlar ve kullanıcıyı yönlendirme anlamında başarılı bir yöntemdir.
+
+4. Buton Yerleşimi:
+
+Tıklanacak ana butonların genellikle ekranın orta ve alt kısımlarında yer alması, kullanıcıların doğal göz hareketlerine uygun bir yerleşim sağlar. Özellikle mobil cihazlarda bu yerleşim, ergonomi açısından da önemlidir ve kullanıcının rahatlıkla etkileşimde bulunmasını sağlar.
+
+5. Basit ve Sade Tasarım:
+
+Karmaşık, uzun metinlerden ve animasyonlardan kaçınarak sade bir tasarım benimsenmesi, kullanıcı deneyimini basitleştirir ve uygulamanın kullanımını kolaylaştırır. Minimalist bir yaklaşım, kullanıcıların ihtiyaç duydukları bilgilere ve işlevlere hızlıca ulaşmalarını sağlar.
+
+6. Kullanıcı Eğitimi (Onboarding):
+
+Tutorial sayfası ile kullanıcıya uygulamanın temel işlevlerini tanıtılması, özellikle ilk kez kullananlar için faydalıdır. Bu sayfanın skip edilebilir olması, kullanıcıya zaman kazandırır ve deneyimlerini kişiselleştirme imkanı verir.
+
+Bu prensipler, kullanıcı odaklı ve erişilebilir bir tasarım oluşturmaya yardımcı olmuştur. Hem görsel hem de işlevsel olarak uyumlu bir deneyim sunarak, uygulamanın kullanıcılar tarafından kolayca anlaşılmasını ve kullanılmasını sağlamaktadır.
