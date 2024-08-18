@@ -5,6 +5,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+
 public class SignupPage {
 
     private AppiumDriver <MobileElement> driver;
@@ -13,6 +14,8 @@ public class SignupPage {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    // locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/createAccountTitleText")
     @iOSXCUITFindBy(accessibility = "create_account_title_text")
@@ -59,11 +62,13 @@ public class SignupPage {
     @iOSXCUITFindBy(accessibility = "error_message_text")
     private MobileElement errorMessageText;
 
+    // error message:
+
     public String getErrorMessage() {
         return errorMessageText.getText();
     }
 
-    // Methods
+    // functions:
 
     public void enterFirstName(String firstName) {
         firstNameInput.sendKeys(firstName);
