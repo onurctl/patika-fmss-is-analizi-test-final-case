@@ -21,7 +21,7 @@ public class driverManager {
             capabilities.setCapability("appium:deviceName", "Pixel_7");
             capabilities.setCapability("appium:udid", "Android Emulator");
             capabilities.setCapability("appium:avd", "Pixel_6_Pro_API_32");
-            capabilities.setCapability("appium:noReset", true); //false mu
+            capabilities.setCapability("appium:noReset", true); 
             capabilities.setCapability("appium:app", "src/test/resources/applications/rentfly.apk");
             driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/"), capabilities);
 
