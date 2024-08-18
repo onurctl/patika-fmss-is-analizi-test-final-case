@@ -5,6 +5,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+
 public class GoogleAccountPage {
 
     private AppiumDriver <MobileElement> driver;
@@ -13,6 +14,8 @@ public class GoogleAccountPage {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    // locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/googleSignUpText")
     @iOSXCUITFindBy(accessibility = "google_sign_up_text")
@@ -26,7 +29,7 @@ public class GoogleAccountPage {
     @iOSXCUITFindBy(accessibility = "next_button")
     private MobileElement nextButton;
 
-    // Methods
+    // functions:
 
     /*
     public void enterEmail(String email) {
