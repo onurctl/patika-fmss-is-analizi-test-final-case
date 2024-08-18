@@ -6,13 +6,17 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+
 public class MainPage {
 
     private AppiumDriver <MobileElement> driver;
+    
     public MainPage(AppiumDriver<MobileElement> driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    // locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/appNameText")
     @iOSXCUITFindBy(accessibility = "app_name_text")
@@ -42,7 +46,7 @@ public class MainPage {
     @iOSXCUITFindBy(accessibility = "terms_of_services_link")
     private MobileElement termsOfServicesLink;
 
-    // Methods
+    // functions:
 
     public void clickContinueWithGoogle() {
         continueWithGoogleButton.click();
