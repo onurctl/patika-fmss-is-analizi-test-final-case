@@ -16,7 +16,7 @@ public class TutorialSecondPage {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    // Second Tutorial Page Locators
+    // second tutorial page locators:
 
     @AndroidFindBy(id = "com.rentfly.app:id/tutorialTitle2")
     @iOSXCUITFindBy(accessibility = "tutorial_title_2")
@@ -25,6 +25,8 @@ public class TutorialSecondPage {
     @AndroidFindBy(id = "com.rentfly.app:id/skipButton2")
     @iOSXCUITFindBy(accessibility = "skip_button_2")
     private MobileElement skipButtonSecondPage;
+
+    // functions:
 
     public String getTitleTextSecondPage() {
         return titleTextSecondPage.getText();
