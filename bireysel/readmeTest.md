@@ -4,7 +4,7 @@ Senaryoların detayları ve final case isterlerindeki 4 başlığa dair açıkla
 # Senaryo Detayları
 21 adet UI ve 12 adet veritabanı eksenli senaryonun detayları şu şekildedir:
 
-# 1. Arayüz, Sayfa geçişi ve Element Kontrolü Eksenli - Smoke
+# 1. Arayüz, Sayfa geçişi ve Element Kontrolü - Smoke
 - Tutorial sayfası title doğrulaması
 - Tutorial devamındaki ikinci sayfaya geçiş ve title ile doğrulaması
 - Tutorial skip sonrası Main Page'e geçiş ve doğrulaması
@@ -32,7 +32,7 @@ Senaryoların detayları ve final case isterlerindeki 4 başlığa dair açıkla
 #
 - Password Reset sayfasındaki input alanının doğrulanması
 
-# 2. DB Eksenli Senaryolar -NOT NULL ve UNIQUE değerler, Veri Tipi Validation, İlişkiler-
+# 2. DB Eksenli Senaryolar: NOT NULL & UNIQUE Değerler, Veri Tipi Validation, İlişkiler
 - Sign Up sayfasında NOT NULL alanların kontrolü
 - Sign Up sayfasında UNIQUE değerlerin kontrolü: mail&şifre
 - Sign Up sayfasında şifre yeterlilik koşullarının kontrolü
@@ -44,7 +44,7 @@ Senaryoların detayları ve final case isterlerindeki 4 başlığa dair açıkla
 - Login sayfasında NOT NULL alanların kontrolü
 #
 - Password Reset sayfasında NOT NULL alan kontrolü
-- Password Reset valid email girişi kontrolü
+- Password Reset sayfasında valid email girişi kontrolü
   
 Bu detaylar harici, genel olarak bakılırsa test projesi 4 başlıktan oluşmaktadır:
 
