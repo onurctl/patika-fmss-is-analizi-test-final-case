@@ -2,7 +2,7 @@
 Proje, global çapta kullanımı planlanan bir rent a car projesinin grup olarak yapılan İş Analizi bölümü ve bireysel olarak yapılan QA-Test bölümünden oluşmaktadır. Tasarlanan uygulama RENTfly ismine sahiptir. Projenin İş Analizi bölümü "grup" klasörü, QA-Test bölümü ise "bireysel" klasörü altında bulunmaktadır.
 
 # İş Analizi - Grup Projesi
-Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. Gerekli dokümanları repo içindeki "grup" klasörü altındadır. Ayrıca tüm içeriği, final case isterlerine uyumlu olan ve proje dosyalarında da paylaşılmış olan ["RENTfly - İş Analizi Grup Çalışmaları"](https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing) dokümanındaki sıralaması ile şu şekilde özetlenebilir: 
+Haftalık ödevler, ekstra eklenen bölümler ve final case isterleri ekseninde eksiksiz olarak oluşturulmuştur. Bağlantıda sorun olma ihtimaline karşın, mümkün olduğunca tüm dokümanlar ilgili klasör -grup- altına eklenmeye çalışılmıştır. Ayrıca tüm içeriği, final case isterlerine uyumlu olan ve proje dosyalarında da paylaşılmış olan ["RENTfly - İş Analizi Grup Çalışmaları"](https://docs.google.com/spreadsheets/d/17TtlctgABjp5MfxRiA-k5OPA_wVDM5_3223XVGh0ex0/edit?usp=sharing) dokümanındaki sıralaması ile şu şekilde özetlenebilir: 
 
 # 1. Ekip Bilgisi / Takım 3
 - Ali ÖZKAN
