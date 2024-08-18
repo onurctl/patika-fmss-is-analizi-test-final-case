@@ -1,4 +1,4 @@
-# Test Projesi - Bireysel
+# Test Projesi
 Ön koşullar:
 
 - JDK (21.0.2)
