@@ -12,7 +12,7 @@ Senaryoların detayları ve final case isterlerindeki 4 başlığa dair açıkla
 # Senaryo Detayları
 21 adet UI ve 12 adet veritabanı eksenli senaryonun detayları şu şekildedir:
 
-# 1. Arayüz, Sayfa geçişi ve Element Kontrolü - Smoke
+# 1. Arayüz, Sayfa Geçişi ve Element Kontrolü - Smoke
 - Tutorial sayfası title doğrulaması
 - Tutorial devamındaki ikinci sayfaya geçiş ve title ile doğrulaması
 - Tutorial skip sonrası Main Page'e geçiş ve doğrulaması
